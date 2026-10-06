@@ -1,0 +1,443 @@
+
+<!doctype html><html><head><meta charset="utf-8">
+<title>Waste Plastic–FCC Relation-Driven KG</title>
+<script src="https://unpkg.com/three@0.150.1/build/three.min.js"></script>
+<script src="https://unpkg.com/3d-force-graph@1.70.12/dist/3d-force-graph.min.js"></script>
+<script src="https://unpkg.com/three-spritetext"></script>
+<style>
+*{box-sizing:border-box}html,body{height:100%;margin:0;overflow:hidden;font-family:Arial,"Microsoft YaHei",sans-serif}
+#graph{position:absolute;inset:0;background:white}
+#left{position:absolute;left:12px;top:12px;width:470px;max-height:calc(100vh - 24px);overflow:auto;background:#fff;border:1px solid #d3d3d3;border-radius:10px;padding:12px;z-index:1000;box-shadow:0 4px 18px #0002}
+h2{font-size:18px;margin:0 0 8px;border-bottom:2px solid #24669b;padding-bottom:7px}
+.sec{border:1px solid #e0e0e0;background:#fafafa;border-radius:7px;padding:8px;margin:7px 0}
+.st{font-size:12px;font-weight:700;margin-bottom:5px}.small{font-size:10px;color:#666;line-height:1.45}
+.module{width:100%;text-align:left;border:1px solid #ccc;background:#fff;border-radius:6px;padding:8px;margin:3px 0;cursor:pointer}
+.module.active{background:#e8f2fa;border-color:#24669b;box-shadow:inset 3px 0 #24669b}
+.routeGrid{display:grid;grid-template-columns:1fr 1fr;gap:5px}.routeBtn{border:1px solid #c9d3d8;background:#fff;border-radius:7px;padding:7px 6px;cursor:pointer;text-align:left;font-size:10px;line-height:1.3}.routeBtn.active{border-color:#6f8e7c;background:#edf4ef;box-shadow:inset 3px 0 #6f8e7c}.routeBtn b{font-size:11px}.routeBtn .count{float:right;color:#637078;font-weight:400}.routeHint{font-size:9px;color:#68767d;margin-top:5px;line-height:1.4}
+.relrow{font-size:9.5px;padding:3px;border-bottom:1px solid #eee}.relname{font-weight:700;color:#244f6a}
+details{border:1px solid #ddd;background:white;border-radius:6px;margin:5px 0}summary{cursor:pointer;padding:7px;font-size:11px;font-weight:700}
+.body{padding:6px}.q{width:100%;padding:6px;border:1px solid #ccc;border-radius:5px}
+.list{max-height:180px;overflow:auto;margin-top:5px}.row{font-size:10px;padding:3px;border-bottom:1px solid #eee}.row label{cursor:pointer}
+.chips{display:flex;gap:4px;flex-wrap:wrap}.chip{font-size:9.5px;background:#eef3f7;border:1px solid #cedbe5;border-radius:12px;padding:3px 6px}.chip button{border:0;background:none;cursor:pointer}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:6px}.actions button{border:0;border-radius:5px;padding:8px;color:#fff;font-weight:700;cursor:pointer}#build{background:#32865d}#reset{background:#bd4b40}#center{background:#3178c6;grid-column:1/span 2}
+#status{font-size:10px;color:#555;background:#f0f3f5;padding:6px;border-radius:5px;margin-top:6px}
+#right{position:absolute;right:0;top:0;width:540px;height:100%;overflow:auto;background:#fff;border-left:1px solid #ddd;padding:15px;z-index:1100;display:none;box-shadow:-4px 0 18px #0002}#detailClose{position:sticky;top:0;float:right;border:1px solid #d4dadd;background:#f4f6f7;color:#111;border-radius:50%;width:32px;height:32px;cursor:pointer;z-index:5;font-size:20px;line-height:28px}#detailClose:hover{background:#e6ebed}
+.scene-tooltip{color:#000!important;background:rgba(255,255,255,.96)!important;border:1px solid #ccd5da!important;border-radius:5px!important;padding:5px 7px!important;box-shadow:0 2px 8px #0002!important}
+.card{border:1px solid #ddd;border-radius:6px;padding:7px;margin:6px 0;font-size:10.5px}.evidence{white-space:pre-wrap;line-height:1.45;border-left:3px solid #91acc1;padding:6px;margin-top:4px;background:#fafafa}
+#legend{position:absolute;left:490px;bottom:10px;background:#fffffff0;border:1px solid #ddd;border-radius:6px;padding:6px;z-index:500;font-size:9px;display:flex;gap:7px;flex-wrap:wrap;max-width:calc(100vw - 1020px)}
+#m1Story{position:absolute;left:510px;right:565px;top:16px;z-index:650;display:none;align-items:center;justify-content:center;gap:10px;pointer-events:none}
+#m2Story,#m3Story{position:absolute;left:510px;right:565px;top:16px;z-index:650;display:none;align-items:center;justify-content:center;gap:8px;pointer-events:none}
+.storyBox{min-width:125px;text-align:center;padding:7px 13px;border-radius:18px;color:white;font-size:12px;font-weight:700;box-shadow:0 2px 7px #0001}
+.storyBox.s1{background:#557b91}.storyBox.s2{background:#6f8e7c}.storyBox.s3{background:#83778d}.storyArrow{font-size:20px;color:#89979f;font-weight:700}
+#entityStory{position:absolute;left:495px;right:555px;top:16px;z-index:660;display:none;align-items:center;justify-content:center;gap:6px;pointer-events:none}
+.storyBox.em1{background:#557b91}.storyBox.em2{background:#6f8e7c}.storyBox.em3{background:#9a7d62}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:3px}
+.groupTitle{font-size:10px;font-weight:700;color:#31566d;margin:8px 2px 4px;padding:4px 5px;background:#edf3f6;border-radius:4px}
+.note{font-size:9.5px;color:#5d6d75;background:#f4f7f8;border-left:3px solid #7f9ead;padding:6px;margin:5px 0}
+.origin{display:inline-block;font-size:8.5px;border:1px solid #cfd8dc;background:#f5f7f8;border-radius:9px;padding:1px 5px;margin-left:4px;color:#607078}
+.catDetail{margin:5px 0 5px 10px;border-color:#d9e3e8;background:#fbfdfe}.catDetail>summary{font-size:10.5px;padding:6px}.catMeta{font-size:9px;color:#70828c;margin-left:4px}.controlledBanner{font-size:9.5px;color:#31566d;background:#edf3f6;border:1px solid #d6e2e8;border-radius:5px;padding:6px;margin-bottom:6px}.polyRow{font-size:10px;padding:5px;border-bottom:1px solid #edf0f2}.polyRow label{cursor:pointer}.catSearch{margin:2px 0 6px}.categoryList{max-height:350px;overflow:auto}
+</style></head>
+<body>
+<div id="graph"></div>
+<div id="left">
+<h2>废塑料–FCC 知识图谱</h2>
+<div class="small"><b>Public GitHub Pages browser</b> · 由完整版 KG 静态导出。</div>
+<div class="small">共享 KG 三模块：M1 原料认知 → M2 技术路线 → M3 反应条件—产品/性能。全部模块使用自由 3D 力导向布局；右键节点可固定，节点颜色按实体类型区分。</div>
+
+<div class="sec"><div class="st">① 选择问题模块</div><div id="modules"></div></div>
+<div id="routeSec" class="sec" style="display:none"><div id="routeTitle" class="st">路线筛选（论文级 metadata）</div><div id="routeButtons" class="routeGrid"></div><div id="routeHint" class="routeHint"></div></div>
+<div class="sec"><div class="st">② 本模块的关系结构</div><div id="relSummary" class="small">请选择模块。</div></div>
+<div class="sec"><div class="st">③ 点开实体类型，选择具体实体</div><div id="types"></div></div>
+<div id="selSec" class="sec" style="display:none"><div class="st">已选实体</div><div id="chips" class="chips"></div></div>
+<div class="actions"><button id="build">生成关系 KG</button><button id="reset">重置</button><button id="center">居中显示</button></div>
+<div id="status">请选择模块。</div>
+</div>
+
+<div id="right"><button id="detailClose" type="button" aria-label="关闭详情">×</button><div id="info"></div></div>
+<div id="m1Story">
+  <div class="storyBox s1">原料身份与组成</div>
+  <div class="storyArrow">→</div>
+  <div class="storyBox s2">原料性质</div>
+  <div class="storyArrow">→</div>
+  <div class="storyBox s3">反应倾向</div>
+</div>
+<div id="m2Story">
+  <div class="storyBox s1">加工路线</div>
+  <div class="storyArrow">→</div>
+  <div class="storyBox s2">进料准备</div>
+  <div class="storyArrow">→</div>
+  <div class="storyBox s3">反应体系</div>
+  <div class="storyArrow">→</div>
+  <div class="storyBox em3">产品 / R3 协同</div>
+</div>
+<div id="m3Story">
+  <div class="storyBox em2">路线与反应体系</div>
+  <div class="storyArrow">→</div>
+  <div class="storyBox em3">操作条件</div>
+  <div class="storyArrow">→</div>
+  <div class="storyBox s3">产品与性能</div>
+</div>
+<div id="entityStory">
+  <div class="storyBox em1">M1 原料性质 / 反应倾向</div>
+  <div class="storyArrow">→</div>
+  <div class="storyBox em2">M2 FCC 技术路线</div>
+  <div class="storyArrow">→</div>
+  <div class="storyBox em3">M3 反应条件 / 产品性能</div>
+</div>
+<div id="legend"></div>
+
+<script src="static_adapter.js"></script>
+<script>
+let CFG=null,G=null,active=new Set(),selected=new Map(),COL={},entityStoryMode=false,routeFilter="ALL";
+const PAL=["#0057B8","#167A3F","#6A1B9A","#D55E00","#C62828","#5D4037","#AD1457","#455A64","#00796B","#3949AB","#00838F","#558B2F","#E65100","#7B1FA2","#37474F"];
+const esc=v=>String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+const idof=x=>(x&&typeof x==="object")?x.id:x;
+
+function initGraph(){
+ G=ForceGraph3D()(document.getElementById("graph")).backgroundColor("#fff").showNavInfo(false)
+ .nodeThreeObject(n=>{
+   let g=new THREE.Group(),s=Math.min(15,5+Math.log2(Math.max(1,+n.paper_count||1))*1.4);
+   if(n.is_seed) s=Math.min(23,s*1.55);
+   // Node colour is ALWAYS determined by entity type. Module/story layers never override it.
+   const entityColor=COL[n.type]||"#555";
+   g.add(new THREE.Mesh(new THREE.SphereGeometry(s,18,18),new THREE.MeshPhongMaterial({color:entityColor,opacity:n.is_seed?.98:.85,transparent:true})));
+   let t=new SpriteText(n.name);t.color="#111";t.textHeight=4.2;t.position.y=s+4;t.backgroundColor="rgba(255,255,255,.91)";t.padding=1;g.add(t);return g;
+ })
+ .nodeLabel(n=>`<div style="color:#000;background:rgba(255,255,255,.96);padding:4px 6px;border-radius:4px"><b>${esc(n.name)}</b><br>${esc(n.type)}${n.controlled_category_zh?`<br>受控类别: ${esc(n.controlled_category_zh)}`:""}</div>`)
+ .linkThreeObject(l=>{let t=new SpriteText(l.relation);t.color="#202020";t.textHeight=3;t.backgroundColor="rgba(255,255,255,.9)";t.padding=.6;return t})
+ .linkThreeObjectExtend(true)
+ .linkPositionUpdate((s,{start,end})=>{s.position.x=(start.x+end.x)/2;s.position.y=(start.y+end.y)/2;s.position.z=(start.z+end.z)/2})
+ .linkColor(l=>l.edge_origin==="DERIVED_NORMALIZED_TENDENCY"?"rgba(100,82,120,.58)":"rgba(60,60,60,.38)")
+ .linkDirectionalArrowLength(4).linkDirectionalArrowRelPos(.9)
+ .onNodeClick(showNode).onLinkClick(showEdge)
+ .onNodeRightClick(n=>{
+   // Right-click fixes the node at its current 3D position.
+   n.fx=n.x;n.fy=n.y;n.fz=n.z;
+   G.d3ReheatSimulation();
+   status.textContent=`已固定节点：${n.name}。重新生成图谱可恢复自由布局。`;
+ });
+ G.d3Force("charge").strength(-125);
+ G.d3Force("link").distance(120).strength(.08);
+ // Keep the original free 3D interaction: rotate, zoom and pan the whole graph.
+ if(G.controls()){G.controls().enableRotate=true;G.controls().enableZoom=true;G.controls().enablePan=true;}
+ document.getElementById("graph").addEventListener("contextmenu",e=>e.preventDefault());
+ G.scene().add(new THREE.AmbientLight(0xffffff,1));
+}
+
+function currentRouteOptions(){
+ if(active.size===1 && active.has("M03")) return CFG.m3_route_options||[];
+ return CFG.m2_route_options||[];
+}
+
+function currentRouteOption(){
+ return currentRouteOptions().find(x=>x.value===routeFilter)||null;
+}
+
+function updateRouteSelector(){
+ const sec=document.getElementById("routeSec"),box=document.getElementById("routeButtons"),hint=document.getElementById("routeHint"),title=document.getElementById("routeTitle");
+ const m2Only=(active.size===1 && active.has("M02"));
+ const m3Only=(active.size===1 && active.has("M03"));
+ if(!m2Only&&!m3Only){sec.style.display="none";routeFilter="ALL";return}
+ sec.style.display="block";box.innerHTML="";
+ if(!CFG.m2_route_ready){
+   hint.textContent="尚未生成 route provenance layer。请先运行 04_16_build_M2_route_layer_shared_KG_v3_1.py。";
+   return;
+ }
+ const opts=m3Only?(CFG.m3_route_options||[]):(CFG.m2_route_options||[]);
+ const valid=new Set(opts.map(x=>x.value));
+ if(!valid.has(routeFilter)) routeFilter=m3Only?"TARGET":"ALL";
+ title.textContent=m3Only?"M3 路线筛选（默认 R1+R2+R3）":"M2 路线筛选（论文级 metadata）";
+ opts.forEach(o=>{
+   let b=document.createElement("button");b.className="routeBtn"+(routeFilter===o.value?" active":"");
+   b.innerHTML=`<b>${esc(o.short)}</b> ${esc(o.label)} <span class="count">${Number(o.paper_count||0).toLocaleString()}</span>`;
+   b.onclick=()=>{
+     const hadGraph=!!(G && G.graphData && (G.graphData().nodes||[]).length);
+     routeFilter=o.value;
+     selected.clear();
+     // Everything below the route selector is regenerated from the route-filtered layer:
+     // relation signatures, entity-type counts, entity lists, selected entities and graph.
+     updateRouteSelector();renderSchema();renderTypes();updateChips();clearGraph();
+     if(hadGraph)buildGraph();
+   };
+   box.appendChild(b);
+ });
+ hint.textContent=m3Only
+   ?"M3 默认仅统计 R1/R2/R3 三类明确 FCC 路线文献；RELATED 不并入反应条件—产品分布统计。"
+   :"R1/R2/R3 为三类技术路线；R4 = RELATED（其他相关研究）。这里只筛选同一套共享 KG 的论文证据，不建立新的路线实体。";
+}
+
+function renderModules(){
+ modules.innerHTML="";
+ CFG.modules.forEach(m=>{
+   let b=document.createElement("button");b.className="module";b.dataset.id=m.id;
+   b.innerHTML=`<b>${m.id}</b> ${esc(m.label)}<div class="small">${esc(m.question)}</div>`;
+   b.onclick=()=>{
+     active.has(m.id)?active.delete(m.id):active.add(m.id);
+     b.classList.toggle("active",active.has(m.id));
+     selected.clear();updateRouteSelector();renderSchema();renderTypes();updateChips();clearGraph();updateStoryMode()
+   };
+   modules.appendChild(b);
+ });
+}
+
+function updateStoryMode(){
+ const m1=document.getElementById("m1Story");
+ const m2=document.getElementById("m2Story");
+ const m3=document.getElementById("m3Story");
+ const all=document.getElementById("entityStory");
+ const m2Only=(active.size===1 && active.has("M02"));
+ const m3Only=(active.size===1 && active.has("M03"));
+ const selectedStory=(selected.size>0 && !m2Only && !m3Only);
+ m1.style.display=(!selectedStory && active.size===1 && active.has("M01"))?"flex":"none";
+ m2.style.display=m2Only?"flex":"none";
+ m3.style.display=m3Only?"flex":"none";
+ all.style.display=selectedStory?"flex":"none";
+}
+
+function renderSchema(){
+ if(!active.size){relSummary.innerHTML="请选择模块。";return}
+ let html="";
+ CFG.modules.filter(m=>active.has(m.id)).forEach(m=>{
+   html+=`<div style="font-weight:700;margin-top:4px">${m.id} ${esc(m.label)}</div>`;
+   if(m.note)html+=`<div class="note">${esc(m.note)}</div>`;
+   let sigs=m.relation_signatures||[];
+   if(active.size===1 && (m.id==="M02"||m.id==="M03")){
+     const ro=currentRouteOption();
+     if(ro && Array.isArray(ro.relation_signatures))sigs=ro.relation_signatures;
+     html+=`<div class="note">当前路线范围：${esc(ro?ro.short+" "+ro.label:"ALL")}</div>`;
+   }
+   if(!sigs.length){
+     html+=`<div class="relrow">当前路线范围下没有符合本模块结构的 canonical edge。</div>`;
+     return;
+   }
+   sigs.forEach(r=>html+=`<div class="relrow"><span class="relname">${esc(r.source_type)} —[${esc(r.relation)}]→ ${esc(r.target_type)}</span> · ${Number(r.canonical_edge_count).toLocaleString()} edges</div>`);
+ });
+ relSummary.innerHTML=html;
+}
+
+function unionTypes(){
+ let out=[],seen=new Set();
+ CFG.modules.filter(m=>active.has(m.id)).forEach(m=>m.types.forEach(t=>{if(!seen.has(t)){seen.add(t);out.push(t)}}));
+ return out;
+}
+
+function typeCount(type){
+ if(active.size===1 && active.has("M01")){
+   if((CFG.controlled_types||[]).includes(type))return Number(CFG.controlled_type_counts[type]||0);
+   return Number(CFG.m1_type_counts[type]||0);
+ }
+ // In M2/M3 the number beside each entity type follows the selected route scope.
+ if(active.size===1 && (active.has("M02")||active.has("M03"))){
+   const ro=currentRouteOption();
+   if(ro && ro.type_counts)return Number(ro.type_counts[type]||0);
+ }
+ return Number(CFG.type_counts[type]||0);
+}
+
+function isControlledType(type){
+ return active.size===1 && active.has("M01") && (CFG.controlled_types||[]).includes(type);
+}
+
+function addTypeDetail(type,parent){
+ let d=document.createElement("details");
+ const controlled=isControlledType(type);
+ const suffix=controlled?" 类":"";
+ d.innerHTML=`<summary><span class="dot" style="background:${COL[type]||'#555'}"></span>${esc(CFG.type_zh[type]||type)} / ${esc(type)} (${typeCount(type).toLocaleString()}${suffix})</summary><div class="body">${controlled?'<div class="controlledBanner">先选择受控类别，再选择具体 canonical entity。类别层仅用于浏览与筛选，不改变底层 KG canonical ID。</div>':''}<input class="q" placeholder="${controlled?'搜索类别或原始实体':'搜索具体实体'}"><div class="list"><div class="small">展开后加载...</div></div></div>`;
+ let inp=d.querySelector(".q"),list=d.querySelector(".list"),timer=null;
+ d.ontoggle=()=>{if(d.open&&!d.dataset.loaded){controlled?loadCategories(type,inp,list,d):loadEntities(type,inp,list,d)}};
+ inp.oninput=()=>{clearTimeout(timer);timer=setTimeout(()=>controlled?loadCategories(type,inp,list,d):loadEntities(type,inp,list,d),250)};
+ parent.appendChild(d);
+}
+
+async function loadCategories(type,inp,list,d){
+ let p=new URLSearchParams({modules:[...active].join(","),type,q:inp.value});
+ let cats=await (await fetch("/api/categories?"+p)).json();
+ list.innerHTML="";list.classList.add("categoryList");
+ if(!cats.length){list.innerHTML='<div class="small">没有匹配的受控类别。</div>';d.dataset.loaded="1";return}
+ cats.forEach(c=>{
+   // Polymer84 category == final canonical entity, so it can be selected directly.
+   if(type==="Polymer"){
+     let r=document.createElement("div");r.className="polyRow";
+     let display=c.name_zh||c.name_en||c.code;
+     r.innerHTML=`<label><input type="checkbox" value="${c.canonical_id}"> <b>${esc(display)}</b> <span class="small">${c.name_en&&c.name_en!==display?`/ ${esc(c.name_en)} `:""}· Rank ${Number(c.rank||0)} · ${Number(c.occurrence_count||0).toLocaleString()} occurrences</span></label>`;
+     let cb=r.querySelector("input");cb.checked=selected.has(c.canonical_id);
+     cb.onchange=()=>{cb.checked?selected.set(c.canonical_id,{canonical_id:c.canonical_id,type:"Polymer",canonical_name_en:display,display_name:display,controlled_category_zh:c.name_zh,controlled_category_en:c.name_en}):selected.delete(c.canonical_id);updateChips()};
+     list.appendChild(r);return;
+   }
+
+   let cd=document.createElement("details");cd.className="catDetail";
+   const display=c.name_zh||c.name_en||c.code;
+   cd.innerHTML=`<summary><b>${esc(display)}</b> <span class="catMeta">${esc(c.code)} · ${Number(c.member_count||0).toLocaleString()} canonical nodes · ${Number(c.occurrence_count||0).toLocaleString()} occurrences</span></summary><div class="body"><input class="q catSearch" placeholder="在此类别中搜索具体实体"><div class="list"><div class="small">展开后加载...</div></div></div>`;
+   let cinp=cd.querySelector(".catSearch"),clist=cd.querySelector(".list"),timer=null;
+   cd.ontoggle=()=>{if(cd.open&&!cd.dataset.loaded)loadEntities(type,cinp,clist,cd,c.code)};
+   cinp.oninput=()=>{clearTimeout(timer);timer=setTimeout(()=>loadEntities(type,cinp,clist,cd,c.code),250)};
+   list.appendChild(cd);
+ });
+ d.dataset.loaded="1";
+}
+
+function renderTypes(){
+ types.innerHTML="";
+ if(!active.size){types.innerHTML='<div class="small">请选择模块。</div>';return}
+
+ // When M01 is viewed alone, preserve the agreed scientific hierarchy in the selector.
+ if(active.size===1 && active.has("M01")){
+   const m=CFG.modules.find(x=>x.id==="M01");
+   m.groups.forEach(g=>{
+     let gt=document.createElement("div");gt.className="groupTitle";gt.textContent=g.label;types.appendChild(gt);
+     g.types.forEach(type=>addTypeDetail(type,types));
+   });
+   return;
+ }
+ // M02/M03 use their approved scientific hierarchy; group labels are display-only, not KG nodes.
+ if(active.size===1 && (active.has("M02")||active.has("M03"))){
+   const mid=active.has("M02")?"M02":"M03";
+   const m=CFG.modules.find(x=>x.id===mid);
+   (m.groups||[]).forEach(g=>{
+     let gt=document.createElement("div");gt.className="groupTitle";gt.textContent=g.label;types.appendChild(gt);
+     g.types.forEach(type=>addTypeDetail(type,types));
+   });
+   return;
+ }
+ unionTypes().forEach(type=>addTypeDetail(type,types));
+}
+
+async function loadEntities(type,inp,list,d,category=""){
+ let p=new URLSearchParams({modules:[...active].join(","),type,q:inp.value,category,route:routeFilter});
+ let rs=await (await fetch("/api/entities?"+p)).json();list.innerHTML="";
+ rs.forEach(n=>{
+   let display=n.display_name||n.canonical_name_en;
+   let r=document.createElement("div");r.className="row";
+   let cat=n.controlled_category_zh?` · ${esc(n.controlled_category_zh)}`:"";
+   r.innerHTML=`<label><input type="checkbox" value="${n.canonical_id}"> ${esc(display)} <span class="small">(${Number(n.paper_count||0).toLocaleString()} papers${cat})</span></label>`;
+   let cb=r.querySelector("input");cb.checked=selected.has(n.canonical_id);
+   cb.onchange=()=>{cb.checked?selected.set(n.canonical_id,{...n,canonical_name_en:display}):selected.delete(n.canonical_id);updateChips()};
+   list.appendChild(r);
+ });
+ d.dataset.loaded="1";
+}
+
+function updateChips(){
+ selSec.style.display=selected.size?"block":"none";chips.innerHTML="";
+ updateStoryMode();
+ selected.forEach((n,id)=>{
+   let c=document.createElement("span");c.className="chip";
+   c.innerHTML=`${esc(n.canonical_name_en)} <button>×</button>`;
+   c.querySelector("button").onclick=()=>{
+     selected.delete(id);updateChips();
+     document.querySelectorAll('input[type=checkbox]').forEach(x=>{if(x.value===id)x.checked=false})
+   };
+   chips.appendChild(c)
+ });
+}
+
+async function buildGraph(){
+ if(!active.size){status.textContent="请先选择模块。";return}
+
+ entityStoryMode=selected.size>0 && !(active.size===1 && (active.has("M02")||active.has("M03")));
+
+ let p=new URLSearchParams({
+   modules:[...active].join(","),
+   seeds:[...selected.keys()].join(","),
+   max_edges:entityStoryMode?8000:1200,
+   entity_story:entityStoryMode?"1":"0",
+   route:routeFilter
+ });
+
+ let data=await (await fetch("/api/graph?"+p)).json();
+
+ // Free force-directed 3D layout for every module. Story/group labels are explanatory only
+ // and never pin nodes to columns. The only fixed nodes are those explicitly right-clicked
+ // by the user after the graph is rendered.
+ data.nodes.forEach(n=>{
+   delete n.fx;delete n.fy;delete n.fz;
+ });
+
+ G.graphData({nodes:data.nodes,links:data.links});G.d3ReheatSimulation();
+ setTimeout(()=>G.zoomToFit(entityStoryMode?1000:800,70),550);
+
+ if(entityStoryMode){
+   const c=data.story_counts||{};
+   const names=[...selected.values()].map(x=>x.canonical_name_en).join(", ");
+   status.textContent=`${names} 跨模块故事线：M1 ${c.M01||0}｜M2 ${c.M02||0}｜M3 ${c.M03||0}｜共 ${data.links.length} 条直接关系`;
+ }else{
+   if(active.size===1 && (active.has("M02")||active.has("M03"))){
+     const ro=currentRouteOption();
+     const mid=active.has("M02")?"M2":"M3";
+     status.textContent=`${mid} · ${ro?ro.short+" "+ro.label:"ALL"}：显示 ${data.nodes.length} 个节点 / ${data.links.length} 条关系。`;
+   }else{
+     status.textContent=`显示 ${data.nodes.length} 个节点 / ${data.links.length} 条关系。`;
+   }
+ }
+
+ buildLegend(data.nodes);
+ updateStoryMode();
+}
+
+function buildLegend(ns){
+ legend.innerHTML="";
+ const typesShown=[...new Set((ns||[]).map(n=>n.type).filter(Boolean))].sort();
+ typesShown.forEach(t=>{
+   legend.innerHTML+=`<span><span class="dot" style="background:${COL[t]||'#555'}"></span>${esc(CFG.type_zh[t]||t)}</span>`;
+ });
+ if(active.size===1 && (active.has("M02")||active.has("M03"))){
+   const ro=currentRouteOption();
+   legend.innerHTML+=`<span class="small"><b>Route:</b> ${esc(ro?ro.short+" "+ro.label:"ALL")} · 节点颜色按实体类型区分</span>`;
+ }else{
+   legend.innerHTML+=`<span class="small">节点颜色按实体类型区分</span>`;
+ }
+}
+
+function clearGraph(){
+ if(G)G.graphData({nodes:[],links:[]});legend.innerHTML="";
+ status.textContent=active.size?"模块已选择，请选择实体或直接生成模块高支持关系。":"请选择模块。";
+ right.style.display="none"
+}
+
+function evidenceYear(e){
+ const m=String(e?.year??"").match(/(?:19|20)\d{2}/);
+ return m?Number(m[0]):0;
+}
+function evCards(rs){
+ const rows=[...(rs||[])].sort((a,b)=>evidenceYear(b)-evidenceYear(a));
+ return rows.slice(0,80).map(e=>{
+   let raw=e.raw_tendency_original?`<div class="small"><b>Raw tendency:</b> ${esc(e.raw_tendency_original)}</div>`:"";
+   const y=evidenceYear(e);
+   return `<div class="card"><div class="small"><b>Year:</b> ${y||"—"}${e.title||e.filename?` · ${esc(e.title||e.filename||"")}`:""}${e.page?` · p.${esc(e.page)}`:""}${e.case_id?` · case ${esc(e.case_id)}`:""}</div><div class="evidence">${esc(e.evidence||"")}</div>${raw}</div>`;
+ }).join("")||'<div class="small">No evidence.</div>'
+}
+
+async function showNode(n){
+ right.style.display="block";
+ let p=new URLSearchParams({modules:[...active].join(","),story_all:entityStoryMode?"1":"0",route:routeFilter});
+ let x=await (await fetch("/api/node/"+encodeURIComponent(idof(n))+"?"+p)).json(),d=x.node;
+ let title=d.display_name||d.canonical_name_en;
+ let controlled=d.controlled_category_zh?`<br><b>受控类别:</b> ${esc(d.controlled_category_zh)}${d.controlled_category_code?` <span class="origin">${esc(d.controlled_category_code)}</span>`:""}`:"";
+ info.innerHTML=`<h2>${esc(title)}</h2><div class="small"><b>Type:</b> ${esc(d.type)}${controlled}<br><b>Papers:</b> ${Number(d.paper_count||0).toLocaleString()}<br><b>Cases:</b> ${Number(d.case_count||0).toLocaleString()}<br><b>Source:</b> ${esc(x.data_source||"")}</div><h3>Evidence <span class="small">（按年份从新到旧）</span></h3>${evCards(x.evidence)}`
+}
+
+async function showEdge(l){
+ right.style.display="block";
+ let p=new URLSearchParams({modules:[...active].join(","),story_all:entityStoryMode?"1":"0",route:routeFilter});
+ let x=await (await fetch("/api/edge/"+encodeURIComponent(l.edge_id)+"?"+p)).json(),e=x.edge;
+ let tn=e.target_display_name_zh||e.target_canonical_name_en;
+ info.innerHTML=`<h2>${esc(e.relation)}</h2><div class="small">${esc(e.source_canonical_name_en)} → ${esc(tn)}<br>${Number(e.paper_count||0).toLocaleString()} papers${e.story_module?` · <b>${esc(e.story_module)}</b>`:""}<br><b>Source:</b> ${esc(x.data_source||"")}${e.edge_origin?` · ${esc(e.edge_origin)}`:""}</div><h3>Evidence</h3>${evCards(x.evidence)}`
+}
+
+async function load(){
+ CFG=await (await fetch("/api/config")).json();
+ const allTypes=new Set([...Object.keys(CFG.type_counts),...Object.keys(CFG.m1_type_counts)]);
+ [...allTypes].forEach((t,i)=>COL[t]=PAL[i%PAL.length]);
+ initGraph();renderModules();updateRouteSelector();renderTypes();updateStoryMode();
+}
+
+build.onclick=buildGraph;
+reset.onclick=()=>{
+ entityStoryMode=false;active.clear();selected.clear();routeFilter="ALL";
+ document.querySelectorAll(".module").forEach(x=>x.classList.remove("active"));
+ updateRouteSelector();renderSchema();renderTypes();updateChips();clearGraph();updateStoryMode()
+};
+center.onclick=()=>G.zoomToFit(650,60);
+document.getElementById("detailClose").addEventListener("click",()=>{right.style.display="none";});
+load();
+</script></body></html>
