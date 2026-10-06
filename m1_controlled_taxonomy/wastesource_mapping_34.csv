@@ -1,0 +1,324 @@
+﻿Canonical ID,原始label,Occurrence,Papers,Cases,Action,Target code,归并类别,English category
+ENT_fc819e17325e4825,biomass,60,41,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_466c40af67d760b9,municipal solid waste,56,51,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_a18f786308b627f6,plastic waste,41,36,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_105f30089cf0f325,waste motor oil,24,6,0,DROP,,,非废塑料来源：油品/燃料
+ENT_0f7b087a3b82e0fe,municipal waste,13,13,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_823a03bc417e822c,scrap tires,12,6,0,DROP,,,非废塑料来源：轮胎/橡胶
+ENT_7b35a9eae4acc98d,packaging materials,10,10,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_23ec0fb092d7630b,post-consumer plastic waste,10,10,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_0be2031eadb8f9b3,agricultural plastic waste,6,4,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_c3fbc891fb9269af,mixed plastic waste,6,4,0,MERGE,WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue
+ENT_7dba229305f4038c,wheat straw,6,6,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_f55abb90d281808c,end-of-life vehicles,5,3,0,MERGE,WS14,汽车/报废车辆来源,Automotive/end-of-life vehicle source
+ENT_7babc06e59683c1b,industrial waste,5,5,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_2046e58065aea358,packaging industry,5,5,0,MERGE,WS19,包装制造/分选行业,Packaging manufacturing/sorting source
+ENT_525b91eced1c4f23,waste electrical and electronic equipment,5,5,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_a8e90f643a842f06,agricultural films,4,3,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_197a908aadd02a0c,bamboo sawdust,4,2,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_57e9f8ca36c9a36f,disposable lunch boxes,4,4,0,MERGE,WS27,一次性餐具/餐饮消费来源,Disposable food-service source
+ENT_84792bafcdaac9b8,landfill,4,4,0,MERGE,WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source
+ENT_c6c160b3869d4132,medical waste,4,4,0,MERGE,WS22,医疗/医院/生物医学来源,Healthcare/medical source
+ENT_eef7e987be4783b0,municipal plastic waste,4,4,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_68e8d9c125fd434e,plastic,4,4,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_31910d18467eeed8,polyethylene waste,4,4,0,DROP,,,材料/聚合物名称，不是来源
+ENT_43eb5bb3e9fe7281,Automobile Shredder Residue,3,2,0,MERGE,WS14,汽车/报废车辆来源,Automotive/end-of-life vehicle source
+ENT_4b6950fb19fbd482,Dow Chemical SA,3,3,0,MERGE,WS17,塑料/聚合物制造企业,Plastic/polymer manufacturing source
+ENT_4e48c2ac8da9372d,LDPE,3,3,0,DROP,,,材料/聚合物名称，不是来源
+ENT_b2accf3e0e4c2591,agricultural waste,3,3,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_dec9f90197f57a49,brown salwood sawdust,3,1,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_01c0c7d952d8eae8,food packaging,3,3,0,MERGE,WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste
+ENT_1ea02740ced529c2,household waste,3,3,0,MERGE,WS02,家庭/居民生活废弃物,Household/residential waste
+ENT_49b63dcb2ec56b54,polystyrene,3,3,0,DROP,,,非废塑料来源：轮胎/橡胶
+ENT_95474bcd0ef9ef0f,shampoo bottles,3,3,0,MERGE,WS07,日化/个人护理包装,Personal-care/household-product packaging
+ENT_0b5d9ca0bdbd2071,urban plastic residues,3,2,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_5385d51ae902d6d0,COREPLA,2,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_74449a1be2208ae7,Construction site,2,2,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_2120e596bf4f838b,Domestic source,2,2,0,MERGE,WS02,家庭/居民生活废弃物,Household/residential waste
+ENT_4e399f937a0dc7f2,Greek Petroleum Industry,2,1,0,MERGE,WS18,石化/炼化/化工企业,Petrochemical/refinery/chemical source
+ENT_8181cb000c55630b,HELLENIC OILS,2,1,0,MERGE,WS18,石化/炼化/化工企业,Petrochemical/refinery/chemical source
+ENT_d59c61120074354c,Hua Chuang Plastic Co. Ltd.,2,2,0,MERGE,WS30,企业/商业机构取样来源,Commercial/company sampling source
+ENT_593866ce55d02796,Irorere Obazee landfill,2,2,0,MERGE,WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source
+ENT_f8ab0323e1ea8486,PET waste,2,2,0,DROP,,,材料/聚合物名称，不是来源
+ENT_9d692656cff3d70e,agriculture,2,2,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_827310bc6bd65929,beverage bottles,2,2,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_b1e531f86d746751,crude oil storage tanks of an offshore platform,2,2,0,DROP,,,非废塑料来源：油品/燃料
+ENT_af9439533579b67a,domestic waste,2,2,0,MERGE,WS02,家庭/居民生活废弃物,Household/residential waste
+ENT_3570fa60f8dda9d2,electric cable residue,2,1,0,MERGE,WS26,电缆/电气残余来源,Cable/electrical-residue source
+ENT_9114b2ed5e09c90f,end-of-life construction materials,2,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_ee519579592fcb5a,end-of-life cooling appliances,2,1,0,MERGE,WS13,家电/制冷设备来源,Appliance/cooling-equipment source
+ENT_899987d47798fa30,food containers,2,2,0,MERGE,WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste
+ENT_a98544ac28f9d3e7,fossil fuels,2,2,0,DROP,,,非废塑料来源：油品/燃料
+ENT_ecbf21df26f6c4d3,grocery bags,2,2,0,MERGE,WS28,袋膜/柔性包装来源,Bag/film/flexible-packaging source
+ENT_2a88ea4d352d56b5,industrial plastic waste,2,2,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_4caf80378cf3ba7c,material recovery facility,2,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_49c7059cc375c36b,milk bottle,2,2,0,MERGE,WS06,饮料瓶/容器废弃物,Bottle/container waste
+ENT_945feb4235a86329,mixed polyolefin waste,2,2,0,DROP,,,材料/聚合物名称，不是来源
+ENT_b371ee52935b9f2e,packaging waste,2,2,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_8b0f6876ae929abe,paper mill,2,2,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_476fd35e921f7d82,plastic bags,2,2,0,MERGE,WS28,袋膜/柔性包装来源,Bag/film/flexible-packaging source
+ENT_bcfad84e83f5b7e6,plastic packaging,2,2,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_e95862174ce5ae51,plastic packaging contaminated with lubricating oil from gas stations,2,1,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_a847b080b2e4f158,plastic solid waste,2,2,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_00ec0b68ce48168e,plastic waste recycling,2,2,0,MERGE,WS33,塑料回收/再生过程,Plastic recycling/reprocessing source
+ENT_001d1770e88820d9,postconsumer PP,2,2,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_db59de931aae8094,postconsumer mix of plastics,2,2,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_0ce96d3f7d1f7d4b,real-world waste plastics,2,2,0,MERGE,WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue
+ENT_415c4062d0dbaaf3,textile waste,2,1,0,MERGE,WS25,纺织/地毯来源,Textile/carpet source
+ENT_b361ec0933d4b876,university waste collection point,2,2,0,MERGE,WS23,学校/大学/实验室来源,University/laboratory source
+ENT_9e285fc5ad5ac22c,waste,2,2,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_a5b207736031aa6b,waste HDPE,2,2,0,DROP,,,材料/聚合物名称，不是来源
+ENT_c764af36da4fcb74,A scrap recycling station in Qingdao,1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_57d48f73cfd410be,ABS flat-panel TV casing,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_19ec9ab27e7c816f,Agricultural and fishery sources,1,1,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_4360966ce989ccad,Agricultural source,1,1,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_6a00b9cfc0a27ad2,Al-Foah Farms,1,1,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_aeff7f4ccb06d0c3,Automotive,1,1,0,MERGE,WS14,汽车/报废车辆来源,Automotive/end-of-life vehicle source
+ENT_dbcf7d88c4f7ffe8,China Petroleum & Chemical Corporation,1,1,0,MERGE,WS18,石化/炼化/化工企业,Petrochemical/refinery/chemical source
+ENT_58a45a5f77c9b1eb,Community,1,1,0,MERGE,WS24,社区/公共场所/城市环境,Community/public-space source
+ENT_0fe764fb8a7763cd,Construction,1,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_877044b84830b69a,Construction and renovation waste sources,1,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_ceb49d57aafe4403,"Cushioning packaging materials for home appliances and office machinery, containers, and disposable tableware",1,1,0,MERGE,WS27,一次性餐具/餐饮消费来源,Disposable food-service source
+ENT_d16c55c101fcb185,DKR-350,1,1,0,MERGE,WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue
+ENT_165650c46e0cc3ab,DP,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_75d9e63adef649fe,Daily necessities,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_065a05eca4388ca3,Dalian Waste Treatment Center,1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_ac65a882738e89ff,Dar es Salaam city waste collection stations,1,1,0,MERGE,WS31,地理指定采样点/现场,Geographic sampling site
+ENT_94bda62dbaf749ad,"Desaru beach, Johor, Malaysia",1,1,0,MERGE,WS11,海洋/海滩/水体垃圾来源,Marine/beach/aquatic litter source
+ENT_279f427e9c5e0b0c,Domestic waste plastics,1,1,0,MERGE,WS02,家庭/居民生活废弃物,Household/residential waste
+ENT_124fd30170f17a78,Dongguan Qingtian Plastic Factory,1,1,0,MERGE,WS17,塑料/聚合物制造企业,Plastic/polymer manufacturing source
+ENT_68517e156a5282ff,"Dow Chemical (Tarragona, Spain)",1,1,0,MERGE,WS17,塑料/聚合物制造企业,Plastic/polymer manufacturing source
+ENT_b6a24e0e4d9abbb4,Durgapur Municipal Corporation dumping yard,1,1,0,MERGE,WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source
+ENT_1399afe6e4ed66d9,"Ecocentral, Granada, Spain",1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_8fec57a19e1109e8,Electronics,1,1,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_168cb8889c667de4,Fast food boxes,1,1,0,MERGE,WS27,一次性餐具/餐饮消费来源,Disposable food-service source
+ENT_742301f40c01264b,Foam packaging material,1,1,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_a1be8b4b4fde813a,Food bags,1,1,0,MERGE,WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste
+ENT_f158d753a3a3c08d,GT-recycling,1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_987e5fd68c33c55f,General merchandise store,1,1,0,MERGE,WS08,零售/商超/电商来源,Retail/grocery/e-commerce source
+ENT_2d4d87ebc5e089ad,Great Pacific garbage patch,1,1,0,MERGE,WS11,海洋/海滩/水体垃圾来源,Marine/beach/aquatic litter source
+ENT_82a59dbc48d0bc2e,"Guangzhou Zhongxin Plastic Co., Ltd.",1,1,0,MERGE,WS30,企业/商业机构取样来源,Commercial/company sampling source
+ENT_289eb756281d826a,HDPE plastic bottle waste,1,1,0,MERGE,WS06,饮料瓶/容器废弃物,Bottle/container waste
+ENT_6585303f3ad85aeb,Henkel Company waste plastic collecting,1,1,0,MERGE,WS30,企业/商业机构取样来源,Commercial/company sampling source
+ENT_83a307dbbb38c8c2,Huachuang Plastics Company,1,1,0,MERGE,WS17,塑料/聚合物制造企业,Plastic/polymer manufacturing source
+ENT_8317f5fe17463b25,Ijagba landfill,1,1,0,MERGE,WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source
+ENT_ccc5834f7d1053b6,Indian Petrochemicals Corporation Limited (IPCL-Dahej),1,1,0,MERGE,WS18,石化/炼化/化工企业,Petrochemical/refinery/chemical source
+ENT_2c913eec39fcd9d6,Industrial and transportation sources,1,1,0,MERGE,WS29,交通运输/物流来源,Transport/logistics source
+ENT_390a55b903238b19,Industrial production sources,1,1,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_5884d393918a66ae,Industrial sources,1,1,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_1c7fc49ba4ddc054,Inner Mongolia,1,1,0,MERGE,WS31,地理指定采样点/现场,Geographic sampling site
+ENT_b714e0e1f18b8b2b,LDPE plastic ground film,1,1,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_6a9086575c123169,"Masks, protective clothing, etc.",1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_f40c204553c08ce7,Materials recycling company,1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_28e72f09241956e2,Meisheng Engineering Plastics Company,1,1,0,MERGE,WS17,塑料/聚合物制造企业,Plastic/polymer manufacturing source
+ENT_d0482fc9786b4554,Mumbai plastics dumpyard,1,1,0,MERGE,WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source
+ENT_48f1f39303437f82,O'Brien Waste Recycling Solutions,1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_54f801c49d211389,PE rigids (DKR 329),1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_8859dc16736ba857,PET depolymerisation,1,1,0,MERGE,WS33,塑料回收/再生过程,Plastic recycling/reprocessing source
+ENT_78db5f7a12b3da0c,PET pellets,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_0f977c04d9b669dd,PET-based waste carpets,1,1,0,MERGE,WS25,纺织/地毯来源,Textile/carpet source
+ENT_ff9b4337777cfda1,PLA,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_e083d7ead86cfd1b,PP rigids (DKR 324),1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_e66f075e3003b478,PSW pellets,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_2c433b29ad52a7a0,PT. Mitra Unit Plastindo Cemerlang,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_c92d729aa547edc5,"Packaging bags, wire insulation, and agricultural mulch film",1,1,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_a4056470169a6c10,Packaging woven bags,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_41e1f902c31439c0,"Petroleum, natural gas, and other high-carbon feedstocks",1,1,0,DROP,,,非废塑料来源：油品/燃料
+ENT_d6cceea30d963ec2,Plastic woven bags,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_b2c771ba88a0c77a,Polypropylene woven bags,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_df36a8044a028493,Recycled paper enterprise,1,1,0,MERGE,WS30,企业/商业机构取样来源,Commercial/company sampling source
+ENT_949a0b16bfbf539a,"Regain Polymers Limited, Castleford, UK",1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_a877249d17bb7fe2,Residential area,1,1,0,MERGE,WS02,家庭/居民生活废弃物,Household/residential waste
+ENT_086e99fee86a63f8,Residential community,1,1,0,MERGE,WS02,家庭/居民生活废弃物,Household/residential waste
+ENT_788d3e234a32fb19,"Ruixiang Plastics Co., Ltd. (China)",1,1,0,MERGE,WS30,企业/商业机构取样来源,Commercial/company sampling source
+ENT_e3dfb26558776410,Sanyo Chemicals,1,1,0,MERGE,WS17,塑料/聚合物制造企业,Plastic/polymer manufacturing source
+ENT_36fdf2ef4f1baacb,Saudi Basic Industries Corporation (SABIC),1,1,0,MERGE,WS17,塑料/聚合物制造企业,Plastic/polymer manufacturing source
+ENT_d389d6fb4d791fc1,Scrap from industrial production,1,1,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_5be0b617c7bd240b,Shanghai,1,1,0,MERGE,WS31,地理指定采样点/现场,Geographic sampling site
+ENT_3d3e595f0c7b1746,"Shanghai Joule Wax Industry Co., Ltd.",1,1,0,MERGE,WS31,地理指定采样点/现场,Geographic sampling site
+ENT_855e2ec2b9343b2b,Sigma-Aldrich,1,1,0,MERGE,WS17,塑料/聚合物制造企业,Plastic/polymer manufacturing source
+ENT_892d03480ef4c084,The Ocean Cleanup,1,1,0,MERGE,WS11,海洋/海滩/水体垃圾来源,Marine/beach/aquatic litter source
+ENT_aa93ae91550e73d2,Urban Mining Industries Pty Ltd,1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_685374147c8ca399,"Uyi Egharevba landfill at Evbuobanosa, Iduadolor-Benin, Nigeria",1,1,0,MERGE,WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source
+ENT_4b90974d240b6711,WEEE,1,1,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_dea41e2b3bf94946,Waste food plastic bags,1,1,0,MERGE,WS28,袋膜/柔性包装来源,Bag/film/flexible-packaging source
+ENT_0e702ee80c4d96ca,Waste milk cartons,1,1,0,MERGE,WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste
+ENT_bd375e12b367978c,Waste paper and papermaking process,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_1f730cd0883c60cd,Waste plastic buckets,1,1,0,MERGE,WS06,饮料瓶/容器废弃物,Bottle/container waste
+ENT_8636c9ec10c2a985,Xinjiang,1,1,0,MERGE,WS31,地理指定采样点/现场,Geographic sampling site
+ENT_80dded5470e22a4c,"Yangzi (Nanjing) Chemical Plastic Co., Ltd.",1,1,0,MERGE,WS30,企业/商业机构取样来源,Commercial/company sampling source
+ENT_35fec2eb751a93c8,"Zagreb, Croatia",1,1,0,MERGE,WS31,地理指定采样点/现场,Geographic sampling site
+ENT_a7e437af86064cae,Zhengzhou Materials Recycling Company,1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_2a970a96771d306a,abandoned iced coffee cups and beverage bottles,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_57d95373d6dfe8a7,acrylonitrile-butadiene-styrene copolymer,1,1,0,DROP,,,非废塑料来源：轮胎/橡胶
+ENT_061202d958fa1598,agricultural mulch,1,1,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_ec5a0821ffae7d8b,aquaculture,1,1,0,MERGE,WS10,渔业/水产养殖来源,Fishery/aquaculture source
+ENT_84b918c30e9ef9a6,"beverage bottles, synthetic fibers, and food packaging",1,1,0,MERGE,WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste
+ENT_0b8e1478d2e9d4e3,biomass + plastics,1,1,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_ded9b2190abfb467,biomedical waste,1,1,0,MERGE,WS22,医疗/医院/生物医学来源,Healthcare/medical source
+ENT_3c046b7c1255acca,bioplastics/biodistributed plastics,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_e95a17d14f58c180,cities,1,1,0,MERGE,WS24,社区/公共场所/城市环境,Community/public-space source
+ENT_caced559f413a359,cling films,1,1,0,MERGE,WS28,袋膜/柔性包装来源,Bag/film/flexible-packaging source
+ENT_173769501664bf7b,commercial goods,1,1,0,MERGE,WS30,企业/商业机构取样来源,Commercial/company sampling source
+ENT_5f00f7c00b056178,commercial waste,1,1,0,MERGE,WS30,企业/商业机构取样来源,Commercial/company sampling source
+ENT_d21f4e3bfd016d1e,commercial waste disposal,1,1,0,MERGE,WS30,企业/商业机构取样来源,Commercial/company sampling source
+ENT_e4eb0a8f6c93c240,construction and demolition waste,1,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_bfc800d4c69c1ca6,construction materials,1,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_05b1a1917a385f4a,construction waste,1,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_95c6fc17c5ae697a,consumer products,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_dffe7ca5b00b7ba2,consumer society wastes,1,1,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_7ce2188f1b441630,cooling appliances,1,1,0,MERGE,WS13,家电/制冷设备来源,Appliance/cooling-equipment source
+ENT_90d11a0613eed7df,cotton planting land,1,1,0,MERGE,WS09,农业塑料/农膜来源,Agricultural plastic source
+ENT_802244b00eec5cfe,crop residues,1,1,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_d39c891d91541f31,daily waste,1,1,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_9a83f668ecdb749a,date palm,1,1,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_0ed7833ab93ef4f9,deconstruction waste,1,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_f587c57e2d7a3b03,demolition of buildings,1,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_6a8704fe86930530,different plastics,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_2aaade111922b2b7,differentiated collection in the Campania region of Italy,1,1,0,MERGE,WS31,地理指定采样点/现场,Geographic sampling site
+ENT_4d6b82bc4201ff9d,discarded plastic chairs,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_9a9bec9fc9b0c4d9,dispersed solid resource,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_b9534f109623b6a7,disposable gloves,1,1,0,MERGE,WS22,医疗/医院/生物医学来源,Healthcare/medical source
+ENT_61bb48418822fd3e,disposable plastic cups,1,1,0,MERGE,WS27,一次性餐具/餐饮消费来源,Disposable food-service source
+ENT_827f6492cce7c929,"disposal site located in Sabon Gari market, Zaria, Kaduna State Nigeria",1,1,0,MERGE,WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source
+ENT_b884ae900141eb72,domestic plastic bottles,1,1,0,MERGE,WS06,饮料瓶/容器废弃物,Bottle/container waste
+ENT_35426e230300107d,"dumping ground of IT (BHU), Varanasi, India",1,1,0,MERGE,WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source
+ENT_591c9b6ee21e249d,dumpsites,1,1,0,MERGE,WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source
+ENT_e23324a4a73822ec,e-commerce packaging industry,1,1,0,MERGE,WS19,包装制造/分选行业,Packaging manufacturing/sorting source
+ENT_3114d479a1a257fc,e-waste,1,1,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_de48890104326d85,electric cables,1,1,0,MERGE,WS26,电缆/电气残余来源,Cable/electrical-residue source
+ENT_7896656f33a2a9ca,electrical outlet scrap,1,1,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_19ed91efec16bc14,electronic waste,1,1,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_afa2d9389d3e6141,face masks,1,1,0,MERGE,WS22,医疗/医院/生物医学来源,Healthcare/medical source
+ENT_00cf5cfd4e4a4d57,food packaging plastics,1,1,0,MERGE,WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste
+ENT_b07255e75aca95f7,fossil resources,1,1,0,DROP,,,非废塑料来源：油品/燃料
+ENT_e44d802c0c92eeb7,hand-soap bottles,1,1,0,MERGE,WS07,日化/个人护理包装,Personal-care/household-product packaging
+ENT_983ea692518ddb55,healthcare,1,1,0,MERGE,WS22,医疗/医院/生物医学来源,Healthcare/medical source
+ENT_98973723259ac12e,healthcare and hospital waste aggregation hub,1,1,0,MERGE,WS22,医疗/医院/生物医学来源,Healthcare/medical source
+ENT_55902bf0f25692b7,household and industrial waste,1,1,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_de318751f74bf4fa,household goods,1,1,0,MERGE,WS02,家庭/居民生活废弃物,Household/residential waste
+ENT_c4dbcf421505e3de,household packaging materials,1,1,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_d75b7d4eddfa6d8a,household products,1,1,0,MERGE,WS02,家庭/居民生活废弃物,Household/residential waste
+ENT_2b71af2c5f00a370,industrial,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_2fc42ae25d195cb2,industrial discharge,1,1,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_84a36bd4a3497174,instant rice consumption,1,1,0,MERGE,WS27,一次性餐具/餐饮消费来源,Disposable food-service source
+ENT_4f29600fc29bd640,laboratory supplies,1,1,0,MERGE,WS23,学校/大学/实验室来源,University/laboratory source
+ENT_3c8f8e22c7a58c1b,local collection,1,1,0,MERGE,WS31,地理指定采样点/现场,Geographic sampling site
+ENT_35deb560bf9ea7d0,local healthcare facilities,1,1,0,MERGE,WS22,医疗/医院/生物医学来源,Healthcare/medical source
+ENT_adceca93dcb460fc,local market waste,1,1,0,MERGE,WS08,零售/商超/电商来源,Retail/grocery/e-commerce source
+ENT_b053b5a03d7a3a98,local municipality,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_3fa62c5b0553513e,"local port in Incheon, Korea",1,1,0,MERGE,WS29,交通运输/物流来源,Transport/logistics source
+ENT_1fb2231a93af1ab4,"local residential plastic waste stream of Urla province of Izmir, Turkey",1,1,0,MERGE,WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue
+ENT_fc57eea085c071b5,local rubbish bins,1,1,0,MERGE,WS24,社区/公共场所/城市环境,Community/public-space source
+ENT_6bde09c9ab701b6a,"local waste management companies in Klang and Mantin, Malaysia",1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_43c8f41c7070ec53,local waste recycling center,1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_d031a2f3c879871b,"maintenance and replacement of piping, flooring, and electric cable trays",1,1,0,MERGE,WS26,电缆/电气残余来源,Cable/electrical-residue source
+ENT_19b4a7dc28f9db75,marine environment,1,1,0,MERGE,WS11,海洋/海滩/水体垃圾来源,Marine/beach/aquatic litter source
+ENT_71144969005bf445,marine waste,1,1,0,MERGE,WS11,海洋/海滩/水体垃圾来源,Marine/beach/aquatic litter source
+ENT_64a4c1a0fdafb334,marine waste plastic,1,1,0,MERGE,WS11,海洋/海滩/水体垃圾来源,Marine/beach/aquatic litter source
+ENT_c816efb9985a04b5,"medical hospitals in Chennai, India",1,1,0,MERGE,WS22,医疗/医院/生物医学来源,Healthcare/medical source
+ENT_db9b2cf900ef73eb,microorganisms,1,1,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_a41c471874cc89e7,microplastics,1,1,0,MERGE,WS11,海洋/海滩/水体垃圾来源,Marine/beach/aquatic litter source
+ENT_4523dfdb13a349c4,milk jugs,1,1,0,MERGE,WS06,饮料瓶/容器废弃物,Bottle/container waste
+ENT_7c3e8619b1c3a713,mixed plastics (DKR-350),1,1,0,MERGE,WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue
+ENT_e2f91ea46d8892fa,multiple plastics,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_e0075132ceb1bec2,municipal,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_f02823080a27460c,municipal and industrial solid plastic waste,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_235d58d7f7c7b56d,municipal dumping zone,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_4eb537a75f1259e1,municipal recycling stream,1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_cbcece78a719e8a2,"municipal solid waste facility in Dalian, China",1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_9540ac68de4e8446,municipal solid waste from Samui Island,1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_372258d917d9f3bd,"municipal waste at the Faculty of Mechanical Engineering at the University of Maribor, Slovenia",1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_fdbb8cc75c4efa6b,municipal waste collection facility,1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_0919d8d883a443d2,municipal waste disposal site in Tiruvannamalai,1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_b8c38a8589dc946e,municipal waste plastics stream,1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_3ae5163e9829c8a0,municipal waste stream,1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_afa9c2670524b921,ocean plastic,1,1,0,MERGE,WS11,海洋/海滩/水体垃圾来源,Marine/beach/aquatic litter source
+ENT_c29c97c65a607b9b,organic resources recovery centre (O. PARK 1),1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_a4e085dfcc03b5dc,packaging manufacturing processes,1,1,0,MERGE,WS19,包装制造/分选行业,Packaging manufacturing/sorting source
+ENT_61592bb39a2d093e,packaging products,1,1,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_5ed0c533a1df6159,packing of KONICA toner cartridge,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_ee5c737931beb157,paper company in Jiangsu Province,1,1,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_b14a194312d0a3a3,paper mill milling,1,1,0,MERGE,WS16,工业生产废弃物,Industrial production waste
+ENT_06dd8ffee00fb33d,passenger cars,1,1,0,MERGE,WS14,汽车/报废车辆来源,Automotive/end-of-life vehicle source
+ENT_f317589673712ae5,personal protective equipment,1,1,0,MERGE,WS22,医疗/医院/生物医学来源,Healthcare/medical source
+ENT_fc7fcf444bce2c07,petrochemical resources,1,1,0,MERGE,WS18,石化/炼化/化工企业,Petrochemical/refinery/chemical source
+ENT_247daa0a09cf0e5f,petrochemicals,1,1,0,MERGE,WS18,石化/炼化/化工企业,Petrochemical/refinery/chemical source
+ENT_11c63433ac01dd06,petroleum hydrocarbons,1,1,0,DROP,,,非废塑料来源：油品/燃料
+ENT_e74371c1c6f15c8f,pipes and other PVC products,1,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_5803c019338093bc,plant-based material,1,1,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_d23c98cfc322910e,plant-based polysaccharides,1,1,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_f37c8ff3de96f354,plasmix,1,1,0,MERGE,WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue
+ENT_97fee50f11dc34c9,plastic bottles,1,1,0,MERGE,WS06,饮料瓶/容器废弃物,Bottle/container waste
+ENT_cc0d2cfe7062ac9d,plastic cups,1,1,0,MERGE,WS27,一次性餐具/餐饮消费来源,Disposable food-service source
+ENT_83f747d4e21c93f5,plastic packaging contaminated with lubricating oil,1,1,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_8c15565935fc180b,plastic packaging waste,1,1,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_d3a21d3c8a5eb796,plastic products,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_c2aaa5f88a8d7c5a,plastic waste from the Containers and Packaging Recycling Law,1,1,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_9e3682b188c5b534,plastic waste stream,1,1,0,MERGE,WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue
+ENT_0bf8b09fe02b3d53,polyester,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_88c1b589396d3adc,polyester waste,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_738926a9115ecc1b,polyolefin-rich plastic waste,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_4efcd982d52cb059,polyolefinic waste,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_e415b78cfa30a171,polypropylene,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_410cf68af8157873,polypropylene waste,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_900efed7df24a37c,polystyrene waste,1,1,0,DROP,,,非废塑料来源：轮胎/橡胶
+ENT_b55e75ebe9ff05ff,post-consumed PE,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_cd4e6ddac40e7082,post-consumer municipal waste,1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_3396cae654d61ac9,post-consumer plastic films,1,1,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_388bebfec1d9813b,post-consumer plastic waste stream,1,1,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_e8cee0ce875ebcf2,post-consumer plastic wastes from industrial packaging and molding processes,1,1,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_d330ab8614767f95,post-consumer recycled plastics,1,1,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_fb32f053c115fca9,postconsumer HDPE,1,1,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_0c58cd4ed93135fe,postconsumer waste,1,1,0,MERGE,WS03,消费后回收流,Post-consumer waste stream
+ENT_e95cb4a088d7ef27,propylene,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_54ada387abc9624d,propylene monomers,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_5f8adaa9b63afb13,public places of Kathmandu Valley,1,1,0,MERGE,WS24,社区/公共场所/城市环境,Community/public-space source
+ENT_0fcd212de8fefb15,recycles of home electronics,1,1,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_b7eb0a2975b87ab0,"recycling companies in Zagreb, Croatia",1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_6a3be1bcaeab66c9,recycling of cups used for dairy products,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_92225a52ecfda97c,recycling plant,1,1,0,MERGE,WS20,回收企业/材料回收设施,Recycling/material recovery source
+ENT_06e7ccce3e63993a,rejects of a packaging separation and classification industrial plant,1,1,0,MERGE,WS19,包装制造/分选行业,Packaging manufacturing/sorting source
+ENT_e612b0acb489c911,renewable resources,1,1,0,DROP,,,非废塑料来源：生物质/天然原料
+ENT_da1c01a7df7ffb5c,safety kits,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_9d8f423f692b6f4d,saline bottles,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_20d79d9c9defbcee,sample vials,1,1,0,MERGE,WS06,饮料瓶/容器废弃物,Bottle/container waste
+ENT_c5b513859c9f3fa4,scrapped vehicles,1,1,0,MERGE,WS14,汽车/报废车辆来源,Automotive/end-of-life vehicle source
+ENT_aef25d8ccca54b71,secondary sorting plant,1,1,0,MERGE,WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue
+ENT_49f87620e7709cb5,selective collection cooperative CODESFI,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_f1e8a0e8f768a3fd,single-use plastic bags,1,1,0,MERGE,WS28,袋膜/柔性包装来源,Bag/film/flexible-packaging source
+ENT_1b2948af4a9bec46,small waste electrical and electronic equipment,1,1,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_a228c283270e3e09,solid waste,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_51ca17f9e458b565,styrene monomers,1,1,0,DROP,,,非废塑料来源：轮胎/橡胶
+ENT_c7fe9947956d57b1,styrofoam,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_e1fcb99627ea5e1b,surroundings,1,1,0,MERGE,WS24,社区/公共场所/城市环境,Community/public-space source
+ENT_2aa7239da3f61987,televisions,1,1,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_42114791811ac63e,textile fibers,1,1,0,MERGE,WS25,纺织/地毯来源,Textile/carpet source
+ENT_f1a9d66c476d83b2,tubing,1,1,0,MERGE,WS15,建筑/拆除/装修来源,Construction/demolition source
+ENT_d2ef17c17d493dd5,tyre manufacturing,1,1,0,DROP,,,非废塑料来源：轮胎/橡胶
+ENT_9daea8892341f316,unorganized collection,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_962f18f344bc472b,urban municipal waste management facility,1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_c4cc9dd9519f3bfe,urban waste collection,1,1,0,MERGE,WS01,市政固体废物/城市垃圾系统,Municipal solid waste system
+ENT_0037852907c86ff7,urban waste plastics accumulation,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_884ea32e377f8513,used LDPE food packing bags,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_b28826c73a5b8e12,used hay bale covers,1,1,0,MERGE,WS28,袋膜/柔性包装来源,Bag/film/flexible-packaging source
+ENT_59bfdd9817456d4d,various plastic packaging,1,1,0,MERGE,WS04,包装废弃物,Packaging waste
+ENT_312a5152147550b9,vegetable oil production,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_f3d91068812133ba,vehicle tyres,1,1,0,DROP,,,非废塑料来源：轮胎/橡胶
+ENT_4980cfeaa89e345c,vessel detergent boxes and disposable glasses and plates,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_ba4ec13641be03ca,virgin PS,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_057a41cbbedae556,waste PE/PP,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_d4a892556b2d2fa3,waste cathode ray tubes (CRT),1,1,0,MERGE,WS12,WEEE/电子电器废弃物,WEEE/electronic waste
+ENT_44307955e3293273,waste dental floss sticks,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_b935ba72ad8f8651,waste facial cleanser containers,1,1,0,MERGE,WS07,日化/个人护理包装,Personal-care/household-product packaging
+ENT_9fd06786d9efbe31,waste food containers,1,1,0,MERGE,WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste
+ENT_10ae67b7d725a045,waste from manufacturing,1,1,0,MERGE,WS34,生产边角料/次品/报废品,Production scrap/reject source
+ENT_2644b4dd00eb764c,waste milk packets,1,1,0,MERGE,WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste
+ENT_c4e6fbbb34ab7f2e,waste plastics difficult to recycle,1,1,0,MERGE,WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue
+ENT_888e42e18b3c9a15,waste polyethylene products,1,1,0,DROP,,,材料/聚合物名称，不是来源
+ENT_39bd51dec35686bf,waste polyolefins,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_65c7fc3170f9582d,waste refrigerators and freezers,1,1,0,MERGE,WS13,家电/制冷设备来源,Appliance/cooling-equipment source
+ENT_e90dd75319ae0ad6,waste rubber/lubricants,1,1,0,REVIEW,,,无法可靠归入受控来源类别；暂不进入统计/桑基图
+ENT_e0e2a1df04f39a47,water bottles,1,1,0,MERGE,WS06,饮料瓶/容器废弃物,Bottle/container waste
+ENT_159fa12f21683dfd,yogurt packaging,1,1,0,MERGE,WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste
+ENT_e7e84b1f36080e1b,zipper storage bags,1,1,0,MERGE,WS28,袋膜/柔性包装来源,Bag/film/flexible-packaging source

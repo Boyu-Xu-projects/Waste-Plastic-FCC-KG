@@ -1,0 +1,35 @@
+﻿Code,废塑料来源类别,English category,原始节点数,Occurrence总数,代表性原始label
+WS01,市政固体废物/城市垃圾系统,Municipal solid waste system,14,84,municipal solid waste; municipal waste; municipal plastic waste; urban waste collection; urban municipal waste management facility; post-consumer municipal waste
+WS02,家庭/居民生活废弃物,Household/residential waste,8,12,household waste; domestic waste; Domestic source; household products; household goods; Residential community
+WS03,消费后回收流,Post-consumer waste stream,11,22,post-consumer plastic waste; postconsumer mix of plastics; postconsumer PP; postconsumer waste; postconsumer HDPE; post-consumer recycled plastics
+WS04,包装废弃物,Packaging waste,11,23,packaging materials; plastic packaging contaminated with lubricating oil from gas stations; plastic packaging; packaging waste; various plastic packaging; plastic waste from the Containers and Packaging Recycling Law
+WS05,食品包装/餐饮废弃物,Food-packaging/food-service waste,9,12,food packaging; food containers; yogurt packaging; waste milk packets; waste food containers; food packaging plastics
+WS06,饮料瓶/容器废弃物,Bottle/container waste,8,9,milk bottle; water bottles; sample vials; plastic bottles; milk jugs; domestic plastic bottles
+WS07,日化/个人护理包装,Personal-care/household-product packaging,3,5,shampoo bottles; waste facial cleanser containers; hand-soap bottles
+WS08,零售/商超/电商来源,Retail/grocery/e-commerce source,2,2,local market waste; General merchandise store
+WS09,农业塑料/农膜来源,Agricultural plastic source,11,22,agricultural plastic waste; agricultural films; agricultural waste; agriculture; cotton planting land; agricultural mulch
+WS10,渔业/水产养殖来源,Fishery/aquaculture source,1,1,aquaculture
+WS11,海洋/海滩/水体垃圾来源,Marine/beach/aquatic litter source,8,8,ocean plastic; microplastics; marine waste plastic; marine waste; marine environment; The Ocean Cleanup
+WS12,WEEE/电子电器废弃物,WEEE/electronic waste,10,14,waste electrical and electronic equipment; waste cathode ray tubes (CRT); televisions; small waste electrical and electronic equipment; recycles of home electronics; electronic waste
+WS13,家电/制冷设备来源,Appliance/cooling-equipment source,3,4,end-of-life cooling appliances; waste refrigerators and freezers; cooling appliances
+WS14,汽车/报废车辆来源,Automotive/end-of-life vehicle source,5,11,end-of-life vehicles; Automobile Shredder Residue; scrapped vehicles; passenger cars; Automotive
+WS15,建筑/拆除/装修来源,Construction/demolition source,11,13,end-of-life construction materials; Construction site; tubing; pipes and other PVC products; demolition of buildings; deconstruction waste
+WS16,工业生产废弃物,Industrial production waste,10,16,industrial waste; paper mill; industrial plastic waste; paper mill milling; paper company in Jiangsu Province; industrial discharge
+WS17,塑料/聚合物制造企业,Plastic/polymer manufacturing source,8,10,Dow Chemical SA; Sigma-Aldrich; Saudi Basic Industries Corporation (SABIC); Sanyo Chemicals; Meisheng Engineering Plastics Company; Huachuang Plastics Company
+WS18,石化/炼化/化工企业,Petrochemical/refinery/chemical source,6,8,HELLENIC OILS; Greek Petroleum Industry; petrochemicals; petrochemical resources; Indian Petrochemicals Corporation Limited (IPCL-Dahej); China Petroleum & Chemical Corporation
+WS19,包装制造/分选行业,Packaging manufacturing/sorting source,4,8,packaging industry; rejects of a packaging separation and classification industrial plant; packaging manufacturing processes; e-commerce packaging industry
+WS20,回收企业/材料回收设施,Recycling/material recovery source,13,15,"material recovery facility; COREPLA; recycling plant; recycling companies in Zagreb, Croatia; local waste recycling center; Zhengzhou Materials Recycling Company"
+WS21,填埋场/垃圾倾倒场,Landfill/dumpsite source,9,13,"landfill; Irorere Obazee landfill; dumpsites; dumping ground of IT (BHU), Varanasi, India; disposal site located in Sabon Gari market, Zaria, Kaduna State Nigeria; Uyi Egharevba landfill at Evbuobanosa, Iduadolor-Benin, Nigeria"
+WS22,医疗/医院/生物医学来源,Healthcare/medical source,9,12,"medical waste; personal protective equipment; medical hospitals in Chennai, India; local healthcare facilities; healthcare and hospital waste aggregation hub; healthcare"
+WS23,学校/大学/实验室来源,University/laboratory source,2,3,university waste collection point; laboratory supplies
+WS24,社区/公共场所/城市环境,Community/public-space source,5,5,surroundings; public places of Kathmandu Valley; local rubbish bins; cities; Community
+WS25,纺织/地毯来源,Textile/carpet source,3,4,textile waste; textile fibers; PET-based waste carpets
+WS26,电缆/电气残余来源,Cable/electrical-residue source,3,4,"electric cable residue; maintenance and replacement of piping, flooring, and electric cable trays; electric cables"
+WS27,一次性餐具/餐饮消费来源,Disposable food-service source,6,9,"disposable lunch boxes; plastic cups; instant rice consumption; disposable plastic cups; Fast food boxes; Cushioning packaging materials for home appliances and office machinery, containers, and disposable tableware"
+WS28,袋膜/柔性包装来源,Bag/film/flexible-packaging source,7,9,plastic bags; grocery bags; zipper storage bags; used hay bale covers; single-use plastic bags; cling films
+WS29,交通运输/物流来源,Transport/logistics source,2,2,"local port in Incheon, Korea; Industrial and transportation sources"
+WS30,企业/商业机构取样来源,Commercial/company sampling source,9,10,"Hua Chuang Plastic Co. Ltd.; commercial waste disposal; commercial waste; commercial goods; Yangzi (Nanjing) Chemical Plastic Co., Ltd.; Ruixiang Plastics Co., Ltd. (China)"
+WS31,地理指定采样点/现场,Geographic sampling site,8,8,"local collection; differentiated collection in the Campania region of Italy; Zagreb, Croatia; Xinjiang; Shanghai Joule Wax Industry Co., Ltd.; Shanghai"
+WS32,真实混合废塑料流/分选残余,Real-world mixed plastic/sorting residue,9,15,mixed plastic waste; real-world waste plastics; waste plastics difficult to recycle; secondary sorting plant; plastic waste stream; plasmix
+WS33,塑料回收/再生过程,Plastic recycling/reprocessing source,2,3,plastic waste recycling; PET depolymerisation
+WS34,生产边角料/次品/报废品,Production scrap/reject source,1,1,waste from manufacturing

@@ -1,6 +1,4 @@
 __pycache__/
 *.pyc
 .venv/
-*.sqlite
 .env
-m1_controlled_taxonomy/

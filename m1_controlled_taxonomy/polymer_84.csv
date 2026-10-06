@@ -1,0 +1,85 @@
+﻿Rank,Canonical ID,English label,中文名称,Occurrence,Papers,Cases
+1,ENT_9ce74a28ea8ac6a4,polypropylene (PP),聚丙烯（PP）,10898,733,4835
+2,ENT_391fc5788bb1fca6,low-density polyethylene (LDPE),低密度聚乙烯（LDPE）,9537,575,5240
+3,ENT_283067b1bb7b2f20,high-density polyethylene (HDPE),高密度聚乙烯（HDPE）,7790,502,3868
+4,ENT_96f45a0bb90219ee,polyethylene (PE),聚乙烯（PE）,7437,688,4168
+5,ENT_09656222dbf15406,polystyrene (PS),聚苯乙烯（PS）,6681,565,3537
+6,ENT_353b025d21074d4c,polyethylene terephthalate (PET),聚对苯二甲酸乙二醇酯（PET）,3372,371,1930
+7,ENT_68b38c1955562b8a,polyvinyl chloride (PVC),聚氯乙烯（PVC）,1905,342,893
+8,ENT_65880393def6fa5a,linear low-density polyethylene (LLDPE),线性低密度聚乙烯（LLDPE）,935,61,326
+9,ENT_6518ccc7077e4027,polycarbonate (PC),聚碳酸酯（PC）,492,88,188
+10,ENT_e42c0cb1ddecf345,polyolefins,聚烯烃,484,153,110
+11,ENT_01e9f9e4df943198,acrylonitrile-butadiene-styrene (ABS),丙烯腈-丁二烯-苯乙烯共聚物（ABS）,432,67,217
+12,ENT_b9573945923e5b65,polylactic acid (PLA),聚乳酸（PLA）,268,36,101
+13,ENT_351e59601be01570,polyurethane (PU),聚氨酯（PU）,204,73,61
+14,ENT_125f09b07259de1a,polyamide (PA),聚酰胺（PA）,189,71,65
+15,ENT_7ac01ecf440bed9d,poly(methyl methacrylate) (PMMA),聚甲基丙烯酸甲酯（PMMA）,145,31,30
+16,ENT_79e91068f67ad3e4,polyester,聚酯,117,41,54
+17,ENT_7a549e81e9fdea14,polybutadiene (BR),聚丁二烯（BR）,61,20,5
+18,ENT_cf8bd7c957eeeb5a,phenolic resin,酚醛树脂,60,13,29
+19,ENT_6df411bde3b41400,ethylene-vinyl acetate (EVA),乙烯-醋酸乙烯酯共聚物（EVA）,48,12,15
+20,ENT_7c075a9dbfc6a30f,polyamide 6 (PA6),聚酰胺6（PA6）,47,12,12
+21,ENT_1ae05ebdbbf3ea31,poly(3-hydroxybutyrate) (PHB),聚(3-羟基丁酸酯)（PHB）,31,2,0
+22,ENT_2b0f78b1215ddea8,polyamide 66 (PA66),聚酰胺66（PA66）,31,6,4
+23,ENT_d2c2d2c5b1a89c3f,polypropylene glycol (PPG),聚丙二醇（PPG）,29,1,0
+24,ENT_96e730f00873a86d,polyacrylonitrile (PAN),聚丙烯腈（PAN）,27,11,8
+25,ENT_8c4b7cb18bee2d26,polybutylene terephthalate (PBT),聚对苯二甲酸丁二醇酯（PBT）,27,13,3
+26,ENT_8c68d46266b4eb77,polyisoprene,聚异戊二烯,25,2,0
+27,ENT_1fd2b0b579e8ee8d,epoxy resin,环氧树脂,24,11,3
+28,ENT_4be655cbeb15e958,polycaprolactone (PCL),聚己内酯（PCL）,23,3,14
+29,ENT_9f3e538b1a4cfb3f,styrene-methyl methacrylate copolymer (SMMA),苯乙烯-甲基丙烯酸甲酯共聚物（SMMA）,22,1,5
+30,ENT_4933b16476bdc665,polytetrafluoroethylene (PTFE),聚四氟乙烯（PTFE）,20,11,3
+31,ENT_73cf06f0716443cc,styrene-acrylonitrile copolymer (SAN),苯乙烯-丙烯腈共聚物（SAN）,16,4,6
+32,ENT_9ef476b8b3fba8ef,ethylene-propylene copolymer (EPR),乙烯-丙烯共聚物（EPR）,14,2,6
+33,ENT_a6d24e1779818086,polyvinylidene chloride (PVDC),聚偏二氯乙烯（PVDC）,14,9,0
+34,ENT_6042c97d7f65bdea,natural rubber,天然橡胶,12,6,1
+35,ENT_9d6fb5237559a954,polybutylene adipate terephthalate (PBAT),聚己二酸/对苯二甲酸丁二醇酯（PBAT）,11,5,6
+36,ENT_e6d7907034d76b80,polyvinyl alcohol (PVA),聚乙烯醇（PVA）,11,5,2
+37,ENT_fae434f45c54c5cb,ethylene-vinyl alcohol (EVOH),乙烯-乙烯醇共聚物（EVOH）,10,5,0
+38,ENT_61d8b7777a2429f0,styrene-butadiene rubber (SBR),丁苯橡胶（SBR）,10,9,2
+39,ENT_2b4f70788b390cd3,medium-density polyethylene (MDPE),中密度聚乙烯（MDPE）,9,4,3
+40,ENT_2274b841ffcf9f2b,ethylene-propylene-diene rubber (EPDM),三元乙丙橡胶（EPDM）,8,1,3
+41,ENT_f2e3211692cd51d6,butyl rubber (IIR),丁基橡胶（IIR）,7,1,5
+42,ENT_394cdb26832cd0a8,polyphenylene oxide (PPO),聚苯醚（PPO）,7,4,2
+43,ENT_8fcf84f020fcf6f8,polybutylene succinate adipate (PBSA),聚丁二酸/己二酸丁二醇酯（PBSA）,6,1,3
+44,ENT_c4ae581808892c50,polyether ether ketone (PEEK),聚醚醚酮（PEEK）,6,1,0
+45,ENT_00d7866663ea954a,polyoxymethylene (POM),聚甲醛（POM）,6,4,2
+46,ENT_d04cdcee14dcb0c0,nitrile rubber (NBR),丁腈橡胶（NBR）,5,5,1
+47,ENT_f276e75899b5cf68,polybutene,聚丁烯,4,4,0
+48,ENT_b6ac5c6701486326,unsaturated polyester resin,不饱和聚酯树脂,4,4,0
+49,ENT_badc0a880817b94f,photosensitive resin,光敏树脂,3,1,1
+50,ENT_10f233e2eb4be9a7,polyethylene glycol (PEG),聚乙二醇（PEG）,3,1,1
+51,ENT_51778d431b8851cd,polyethylene naphthalate (PEN),聚萘二甲酸乙二醇酯（PEN）,3,1,0
+52,ENT_978375168237aef0,polyisocyanurate,聚异氰脲酸酯,3,1,0
+53,ENT_08be3dd0ff969b41,urea-formaldehyde resin,脲醛树脂,3,3,0
+54,ENT_a95757726229de36,Nafion,全氟磺酸聚合物（Nafion）,2,1,0
+55,ENT_0ac3b2b02a8083ea,ethylene-acrylic acid copolymer (EAA),乙烯-丙烯酸共聚物（EAA）,2,1,1
+56,ENT_b1ab151ad9b226d6,polybenzoxazine,聚苯并噁嗪,2,1,0
+57,ENT_722d6812eb702b93,polydimethylsiloxane (PDMS),聚二甲基硅氧烷（PDMS）,2,1,0
+58,ENT_55d33e6e9542cb77,polyhydroxyalkanoate (PHA),聚羟基脂肪酸酯（PHA）,2,1,0
+59,ENT_a88df91e0b6bb3d1,polyimide,聚酰亚胺,2,2,1
+60,ENT_f35a5c7e17c31659,polyolefin elastomer,聚烯烃弹性体,2,1,0
+61,ENT_70d276bb61e8a544,ultra-high-molecular-weight polyethylene (UHMWPE),超高分子量聚乙烯（UHMWPE）,2,2,2
+62,ENT_ad07ad30e1b9abf5,alkyd resin,醇酸树脂,1,1,0
+63,ENT_0e5acd7c4053b526,alkylbenzene sulfonate resin,烷基苯磺酸树脂,1,1,0
+64,ENT_3545e7556e1078fe,amino resin,氨基树脂,1,1,0
+65,ENT_50471a3447b80891,aramid,芳纶,1,1,0
+66,ENT_a117dd473061d091,ion-exchange resin,离子交换树脂,1,1,1
+67,ENT_b04ec4cd2288acd7,"poly(1,4-cyclohexylenedimethylene terephthalate)","聚对苯二甲酸1,4-环己烷二甲醇酯",1,1,0
+68,ENT_0fef711f742cc2c3,poly(3-hydroxybutyrate-co-3-hydroxyhexanoate) (PHBH),聚(3-羟基丁酸酯-co-3-羟基己酸酯)（PHBH）,1,1,1
+69,ENT_ffe4f926e99568fc,poly(diketoenamine),聚二酮烯胺,1,1,0
+70,ENT_a362a9d2264fd7f3,poly(isosorbide terephthalate),聚对苯二甲酸异山梨醇酯,1,1,0
+71,ENT_bddf8c6cd919533e,poly(lactide-co-glycolide) (PLGA),聚乳酸-羟基乙酸共聚物（PLGA）,1,1,0
+72,ENT_df022c05eb5e486a,poly(methylstyrene),聚甲基苯乙烯,1,1,0
+73,ENT_c4f7895612f39170,polyacrylamide,聚丙烯酰胺,1,1,0
+74,ENT_8fc719c096c813c1,polybutylene succinate (PBS),聚丁二酸丁二醇酯（PBS）,1,1,1
+75,ENT_e762562db83b9bae,polydivinylbenzene,聚二乙烯苯,1,1,1
+76,ENT_ef9c1389e3e2d9e3,polyetherketoneketone (PEKK),聚醚酮酮（PEKK）,1,1,0
+77,ENT_5074b75437102855,polyethylene-co-1-octene,乙烯-1-辛烯共聚物,1,1,1
+78,ENT_41974f055b5a0083,polyphenylene sulfide (PPS),聚苯硫醚（PPS）,1,1,0
+79,ENT_b2104f3c8b6a22a4,polyphthalamide (PPA),聚邻苯二甲酰胺（PPA）,1,1,0
+80,ENT_1fc5ee0e85d45f6e,polystyrene-divinylbenzene copolymer,聚苯乙烯-二乙烯苯共聚物,1,1,1
+81,ENT_648da5955bfc769b,polysulfone (PSF),聚砜（PSF）,1,1,0
+82,ENT_c4bf924d7efb89d4,polyvinyl butyral (PVB),聚乙烯醇缩丁醛（PVB）,1,1,1
+83,ENT_edd48519cff6b7a0,silicone resin,有机硅树脂,1,1,0
+84,ENT_8dd12709f0c149c1,silicone rubber,硅橡胶,1,1,0

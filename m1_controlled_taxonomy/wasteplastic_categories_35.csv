@@ -1,0 +1,36 @@
+﻿Code,废塑料类别,English category,原始节点数,Occurrence总数,代表性原始label
+WP01,单一聚合物废塑料样品,Single-polymer waste plastic,545,2125,ABS waste plastics; LLDPE waste; waste polystyrene plastics; PSW; C/LDPE; PW
+WP02,混合聚烯烃废塑料,Mixed polyolefin waste,179,1660,polypropylene plastic waste; MPW; polyolefin mixture; PE plastic waste; PE/PP polymer waste; PE/PP mixture
+WP03,多聚合物混合废塑料,Mixed multi-polymer waste,337,29984,polypropylene waste; LDPE; HDPE; polyethylene waste; polystyrene waste; polystyrene
+WP04,城市生活/市政废塑料,Municipal plastic waste,9,541,"municipal plastic waste; municipal mixed plastic waste; municipal polymer waste; mixed urban plastics; municipal plastics; unsorted municipal plastics composed of PE, PP, and PS"
+WP05,家庭/居民废塑料,Household/residential plastic waste,4,97,household mixed plastic waste; household plastic waste; urban household waste plastics; post-consumer polypropylene collected from household plastic waste
+WP06,消费后废塑料,Post-consumer plastic waste,58,612,post-consumer plastic waste; postconsumer polymer mixture (PE/PP); post-consumer commingled waste plastics (WPs#4); postconsumer LLDPE; post-consumer polyolefin waste; postconsumer plastic mixture
+WP07,工业废塑料/生产废料,Industrial plastic waste,4,55,industrial plastic waste; industrial plastic waste 2; industrial plastic waste 1; post-industrial plastic waste
+WP08,包装废塑料,Packaging plastic waste,34,187,waste plastics packaging; waste packaging polyethylene; packaging materials; polypropylene packaging waste; packaging trays; lightweight packaging polystyrene from municipal collection
+WP09,食品包装/餐饮废塑料,Food-packaging/food-service plastic waste,11,58,waste plastic rice containers; food packaging plastic waste; household food packaging waste; food container; food packaging soft plastics (LDPE); tableware
+WP10,饮料瓶/容器废塑料,Bottle/container plastic waste,69,234,PET bottles; plastic container; waste PET bottles; water bottle; toiletry bottle; prescription medicine bottles
+WP11,袋/薄膜类废塑料,Bag/film plastic waste,69,1403,mixed plastic waste; plastic film waste; polyethylene film; polyethylene film waste; plastic bags; grocery bag
+WP12,农业膜/农业废塑料,Agricultural plastic waste,18,218,waste agricultural film; agricultural plastic waste; ground film plastics; AGR; mulching film; agricultural film
+WP13,WEEE/电子电器废塑料,WEEE/electronic plastic waste,17,214,WEEE-derived plastics; pre-treated WEEE plastic; e-waste plastics; WEEE; Real WEEE; waste electrical and electronic equipment plastics
+WP14,电脑/电视/电子壳体塑料,Computer/TV/electronic casing plastic,4,136,waste computer casing plastic; Waste ABS TV casing; plastics from television and computer monitors (CRT); plastic waste from waste cathode ray tubes (CRT)
+WP15,汽车/报废车辆废塑料,Automotive/ELV plastic waste,10,157,end of life vehicle plastics waste; automotive plastic waste; real waste plastics from end of life vehicle; AHH; automotive seat foam; ASR
+WP16,医疗/PPE废塑料,Medical/PPE plastic waste,41,344,mask waste; medical plastic waste; polypropylene face masks; surgical face mask; hospital plastic wastes; polyolefin-based facemask
+WP17,海洋/海滩塑料垃圾,Marine/beach plastic litter,9,114,marine plastic litter; marine waste polypropylene; ocean plastic waste; post-consumer marine debris; marine plastic waste; marine litter
+WP18,渔业/渔网塑料废弃物,Fishery/net plastic waste,5,51,fishing net waste; waste buoy; buoy polystyrene; nylon fishing net; PE fishing net
+WP19,建筑/工程塑料废弃物,Construction/engineering plastic waste,6,90,tarpaulin waste; landfill liner plastic waste; building reconstruction plastics; raw tarpaulin material; polyurethane construction waste; building/construction waste
+WP20,纺织/纤维/地毯塑料废弃物,Textile/fibre/carpet plastic waste,23,84,waste phenolic fibre-reinforced plastic; carpet backing material; carpet face fiber; PET-based waste carpet; waste carpet; waste PET fibre
+WP21,泡沫/保温塑料废弃物,Foam/insulation plastic waste,28,559,waste expanded polystyrene; expanded polystyrene; polystyrene waste foam; waste thermocol; mixed waste expanded polystyrene and high density polyethylene; Waste Foamed Plastic
+WP22,电缆/电线绝缘塑料,Cable/wire insulation plastic,7,12,plastic optical cable waste; electric cable wastes; Cable (PVC and PE); insulator of electric wire; PVC cable sheath; PVC cable insulation material
+WP23,一次性塑料制品,Single-use plastic products,14,94,waste plastic straws; used biodegradable straws; disposable lunch box; PP (Waste Lunch Box); polypropylene cups; PLA straws
+WP24,日用品/消费品塑料废弃物,Consumer-product plastic waste,3,77,banner waste; infant toy; abandoned banner
+WP25,阻燃/含溴废塑料,Flame-retarded/brominated plastic waste,11,70,Br-HIPS; Br-ABS; brominated high impact polystyrene (Br-HIPS); plastics containing brominated flame-retardants; flame retarded plastic acrylonitrile-butadiene-styrene; brominated flame retarded plastics
+WP26,含氯/卤素废塑料,Chlorine/halogen-containing plastic waste,7,69,chlorine-containing mixed waste plastics; mixed waste plastics containing PVC; chlorinated plastic waste; dehydrochlorinated polyvinyl chloride; chlorinated plastics; halogenated plastics
+WP27,含油/受污染废塑料,Oil-contaminated/dirty plastic waste,6,7,LDPE contaminated with PVC; bromine-contaminated PP wastes; PVC-contaminated waste; PVC-contaminated plastic waste; PVC-contaminated mixed waste; Cl-contaminated PP
+WP28,微塑料/塑料碎片,Microplastic/plastic fragments,10,61,microplastic waste; polycarbonate microplastics; high-density polyethylene microplastics; PVC microplastics; PET microplastic; small microplastic waste
+WP29,RDF/SRF/分选残余塑料,RDF/SRF/sorting-residue plastics,14,154,SRF; RDF; unwashed DKR-350; real-world plastic waste; dry-washed DKR-350; DKR-350
+WP30,回收/再生/返工塑料,Recycled/reworked plastic,18,120,recycled polypropylene; reworked polypropylene plastics; recycled HDPE; recycled plastics; recycled LDPE; recycled high-impact polystyrene
+WP31,颗粒/粉末/片料/碎料,Pellet/powder/flake/shredded plastic,39,231,waste PET flakes; waste polyethylene terephthalate granules; waste plastic powder; commercial HDPE pellets; LDPE pellets; HDPE granules
+WP32,多层/复合/金属化塑料,Multilayer/composite/metallised plastic,14,182,metallised food packaging plastics; multi-layered plastic waste; aluminum foil-laminated plastic residue; multi-layered plastic food packaging; Laminated metallized recycled plastic; multilayer packaging
+WP33,填埋/垃圾场塑料残余,Landfill/dumpsite plastic residue,9,34,landfill waste plastic; 10-year-old landfill plastic; plastic waste from Hat-Yai municipal landfills; plastic waste from Dar es Salaam dump sites; landfill-mixed waste plastics; Sieved 10-year-old landfill plastic waste of 2x2 inches
+WP34,实验/模型塑料样品,Experimental/model plastic sample,12,58,model LDPE; model plastic mixture; mixed plastic simulants containing 10% PVC; model waste plastics; model mixture of polymers; PP model
+WP35,特定场景/专用塑料废弃物,Specific-context plastic waste,24,46,tennis balls rubber; WMPs/sFCC; waste polymeric reverse osmosis membranes; loop dryer residue; waste fatty acid mixture; PS-BD/LCO
