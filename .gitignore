@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 .venv/
 .env
+06_build_public_deployment_data.py
